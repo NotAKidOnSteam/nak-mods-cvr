@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Daky weird NStrip building, but without the nstrip
+_ManagedLibs/
+*.bat
+*.exe
+
 # User-specific files
 *.rsuser
 *.suo
